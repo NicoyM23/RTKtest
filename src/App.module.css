@@ -1,0 +1,9 @@
+.content {
+    display: grid;
+    justify-items: center;
+    width: 1000px;
+    background-color: #26394D;
+    margin-top: 30px;
+    border-radius: 5px;
+    padding: 10px 10px;
+}

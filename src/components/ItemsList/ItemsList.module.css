@@ -1,0 +1,35 @@
+.list {
+    margin-top: 45px;
+    min-height: 300px;
+}
+.card {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: rgb(196 236 250);
+    height: 90px;
+    border-bottom: 1px solid rgb(183 233 255 / 27%);
+    overflow: hidden;
+    padding: 10px 0;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+    min-width: 700px;
+    justify-content: space-around;
+}
+.name {
+    width: 160px;
+    background-color: #ffffff0d;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+}
+span {
+    font-family: Montserrat;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    min-width: 140px;
+    max-width: 140px;
+}
