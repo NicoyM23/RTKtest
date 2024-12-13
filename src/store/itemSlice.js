@@ -7,9 +7,6 @@ const itemSlice = createSlice({
     },
     reducers: {
         addItem (state, action) {
-            console.log(state)
-            console.log(action)
-
             state.items.push({
                 id: Date.now() * Math.random(),
                 text: action.payload,
